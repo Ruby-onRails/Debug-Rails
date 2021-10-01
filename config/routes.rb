@@ -1,6 +1,7 @@
 require 'sidekiq/web'
 
 Rails.application.routes.draw do
+  resources :perriors
   resources :products
   resources :posts
     authenticate :user, lambda { |u| u.admin? } do

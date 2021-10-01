@@ -3746,3 +3746,585 @@ Processing by HomeController#index as HTML
 Completed 200 OK in 146ms (Views: 119.1ms | ActiveRecord: 0.0ms | Allocations: 19291)
 
 
+Started GET "/" for 127.0.0.1 at 2021-10-01 18:29:17 +0500
+  [1m[35m (1.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 3.5ms | Allocations: 431)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_head.html.erb (Duration: 45.3ms | Allocations: 6213)
+  Rendered shared/_flash_notice.html.erb (Duration: 2.0ms | Allocations: 254)
+  Rendered shared/_header.html.erb (Duration: 5.8ms | Allocations: 728)
+  Rendered layout layouts/application.html.erb (Duration: 63.7ms | Allocations: 8521)
+Completed 200 OK in 95ms (Views: 70.2ms | ActiveRecord: 0.0ms | Allocations: 12978)
+
+
+Started GET "/posts" for 127.0.0.1 at 2021-10-01 18:30:03 +0500
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.7ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:15
+  Rendered posts/index.html.erb within layouts/application (Duration: 5.4ms | Allocations: 1292)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_head.html.erb (Duration: 7.4ms | Allocations: 3061)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.1ms | Allocations: 44)
+  Rendered shared/_header.html.erb (Duration: 0.7ms | Allocations: 263)
+  Rendered layout layouts/application.html.erb (Duration: 14.5ms | Allocations: 4928)
+Completed 200 OK in 22ms (Views: 16.2ms | ActiveRecord: 0.7ms | Allocations: 6747)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2021-10-01 18:30:04 +0500
+Processing by PostsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/new.html.erb within layouts/application
+  Rendered posts/_form.html.erb (Duration: 22.3ms | Allocations: 4190)
+  Rendered posts/new.html.erb within layouts/application (Duration: 29.0ms | Allocations: 4689)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_head.html.erb (Duration: 12.0ms | Allocations: 3011)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.2ms | Allocations: 58)
+  Rendered shared/_header.html.erb (Duration: 0.6ms | Allocations: 246)
+  Rendered layout layouts/application.html.erb (Duration: 42.9ms | Allocations: 8283)
+Completed 200 OK in 74ms (Views: 44.0ms | ActiveRecord: 1.4ms | Allocations: 12548)
+
+
+Started GET "/posts" for 127.0.0.1 at 2021-10-01 18:30:06 +0500
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:15
+  Rendered posts/index.html.erb within layouts/application (Duration: 4.6ms | Allocations: 799)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_head.html.erb (Duration: 11.0ms | Allocations: 2878)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered shared/_header.html.erb (Duration: 1.0ms | Allocations: 221)
+  Rendered layout layouts/application.html.erb (Duration: 18.6ms | Allocations: 4192)
+Completed 200 OK in 21ms (Views: 19.5ms | ActiveRecord: 0.2ms | Allocations: 4732)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2021-10-01 18:30:07 +0500
+Processing by PostsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/new.html.erb within layouts/application
+  Rendered posts/_form.html.erb (Duration: 3.3ms | Allocations: 641)
+  Rendered posts/new.html.erb within layouts/application (Duration: 3.8ms | Allocations: 754)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_head.html.erb (Duration: 12.3ms | Allocations: 2867)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.4ms | Allocations: 52)
+  Rendered shared/_header.html.erb (Duration: 1.3ms | Allocations: 221)
+  Rendered layout layouts/application.html.erb (Duration: 20.6ms | Allocations: 4146)
+Completed 200 OK in 24ms (Views: 21.8ms | ActiveRecord: 0.0ms | Allocations: 4638)
+
+
+Started GET "/posts" for 127.0.0.1 at 2021-10-01 18:30:14 +0500
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:15
+  Rendered posts/index.html.erb within layouts/application (Duration: 5.9ms | Allocations: 724)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_head.html.erb (Duration: 12.7ms | Allocations: 2878)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered shared/_header.html.erb (Duration: 1.1ms | Allocations: 221)
+  Rendered layout layouts/application.html.erb (Duration: 22.2ms | Allocations: 4116)
+Completed 200 OK in 25ms (Views: 23.3ms | ActiveRecord: 0.2ms | Allocations: 4589)
+
+
+Started GET "/" for 127.0.0.1 at 2021-10-01 18:30:21 +0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 52)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_head.html.erb (Duration: 8.2ms | Allocations: 2885)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.1ms | Allocations: 52)
+  Rendered shared/_header.html.erb (Duration: 0.6ms | Allocations: 235)
+  Rendered layout layouts/application.html.erb (Duration: 10.2ms | Allocations: 3475)
+Completed 200 OK in 12ms (Views: 11.0ms | ActiveRecord: 0.0ms | Allocations: 3934)
+
+
+Started GET "/" for 127.0.0.1 at 2021-10-01 18:31:52 +0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 51)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_head.html.erb (Duration: 9.9ms | Allocations: 2886)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered shared/_header.html.erb (Duration: 1.0ms | Allocations: 235)
+  Rendered layout layouts/application.html.erb (Duration: 12.8ms | Allocations: 3476)
+Completed 200 OK in 15ms (Views: 14.0ms | ActiveRecord: 0.0ms | Allocations: 3936)
+
+
+  [1m[35m (1.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreatePerriors (20211001140954)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.6ms)[0m  [1m[35mCREATE TABLE "perriors" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar, "content" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (2.8ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20211001140954"]]
+  [1m[36mTRANSACTION (12.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.8ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for 127.0.0.1 at 2021-10-01 19:10:38 +0500
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 5.5ms | Allocations: 536)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_head.html.erb (Duration: 103.1ms | Allocations: 13547)
+  Rendered shared/_flash_notice.html.erb (Duration: 1.1ms | Allocations: 256)
+  Rendered shared/_header.html.erb (Duration: 4.8ms | Allocations: 728)
+  Rendered layout layouts/application.html.erb (Duration: 120.7ms | Allocations: 16261)
+Completed 200 OK in 152ms (Views: 130.2ms | ActiveRecord: 0.0ms | Allocations: 21925)
+
+
+Started GET "/perriors" for 127.0.0.1 at 2021-10-01 19:11:02 +0500
+Processing by PerriorsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering perriors/index.html.erb within layouts/application
+  [1m[36mPerrior Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM "perriors" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/views/perriors/index.html.erb:5
+  [1m[36mCACHE Perrior Exists? (0.0ms)[0m  [1m[34mSELECT 1 AS one FROM "perriors" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/views/perriors/index.html.erb:10
+  Rendered perriors/index.html.erb within layouts/application (Duration: 13.5ms | Allocations: 2573)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_head.html.erb (Duration: 8.6ms | Allocations: 3061)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.1ms | Allocations: 60)
+  Rendered shared/_header.html.erb (Duration: 0.8ms | Allocations: 265)
+  Rendered layout layouts/application.html.erb (Duration: 24.3ms | Allocations: 6227)
+Completed 200 OK in 32ms (Views: 26.5ms | ActiveRecord: 1.6ms | Allocations: 8012)
+
+
+Started GET "/perriors/new" for 127.0.0.1 at 2021-10-01 19:11:08 +0500
+Processing by PerriorsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering perriors/new.html.erb within layouts/application
+  Rendered application/_error_messages.html.erb (Duration: 1.0ms | Allocations: 223)
+  Rendered perriors/_form.html.erb (Duration: 36.5ms | Allocations: 4249)
+  Rendered perriors/new.html.erb within layouts/application (Duration: 41.2ms | Allocations: 4632)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_head.html.erb (Duration: 11.6ms | Allocations: 3015)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.2ms | Allocations: 58)
+  Rendered shared/_header.html.erb (Duration: 1.0ms | Allocations: 245)
+  Rendered layout layouts/application.html.erb (Duration: 57.2ms | Allocations: 8216)
+Completed 200 OK in 75ms (Views: 58.5ms | ActiveRecord: 0.6ms | Allocations: 11551)
+
+
+Started POST "/perriors" for 127.0.0.1 at 2021-10-01 19:11:33 +0500
+Processing by PerriorsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "perrior"=>{"title"=>"i like that", "content"=>"thats amazing"}, "button"=>""}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/perriors_controller.rb:27:in `block in create'
+  [1m[36mPerrior Create (1.1ms)[0m  [1m[32mINSERT INTO "perriors" ("title", "content", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "i like that"], ["content", "thats amazing"], ["created_at", "2021-10-01 14:11:33.943714"], ["updated_at", "2021-10-01 14:11:33.943714"]]
+  ↳ app/controllers/perriors_controller.rb:27:in `block in create'
+  [1m[36mTRANSACTION (6.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/perriors_controller.rb:27:in `block in create'
+Redirected to http://127.0.0.1:3000/perriors/1
+Completed 302 Found in 31ms (ActiveRecord: 7.9ms | Allocations: 5739)
+
+
+Started GET "/perriors/1" for 127.0.0.1 at 2021-10-01 19:11:33 +0500
+Processing by PerriorsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPerrior Load (0.4ms)[0m  [1m[34mSELECT "perriors".* FROM "perriors" WHERE "perriors"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/perriors_controller.rb:62:in `set_perrior'
+  Rendering layout layouts/application.html.erb
+  Rendering perriors/show.html.erb within layouts/application
+  Rendered perriors/show.html.erb within layouts/application (Duration: 2.3ms | Allocations: 326)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_head.html.erb (Duration: 21.9ms | Allocations: 2986)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.2ms | Allocations: 65)
+  Rendered shared/_header.html.erb (Duration: 0.7ms | Allocations: 245)
+  Rendered layout layouts/application.html.erb (Duration: 26.4ms | Allocations: 3880)
+Completed 200 OK in 46ms (Views: 27.8ms | ActiveRecord: 0.4ms | Allocations: 7932)
+
+
+Started GET "/perriors" for 127.0.0.1 at 2021-10-01 19:11:43 +0500
+Processing by PerriorsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering perriors/index.html.erb within layouts/application
+  [1m[36mPerrior Exists? (0.6ms)[0m  [1m[34mSELECT 1 AS one FROM "perriors" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/views/perriors/index.html.erb:5
+  [1m[36mCACHE Perrior Exists? (0.0ms)[0m  [1m[34mSELECT 1 AS one FROM "perriors" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/views/perriors/index.html.erb:10
+  [1m[36mPerrior Load (0.4ms)[0m  [1m[34mSELECT "perriors".* FROM "perriors"[0m
+  ↳ app/views/perriors/index.html.erb:23
+  Rendered perriors/index.html.erb within layouts/application (Duration: 23.4ms | Allocations: 2685)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_head.html.erb (Duration: 18.0ms | Allocations: 2891)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered shared/_header.html.erb (Duration: 1.3ms | Allocations: 221)
+  Rendered layout layouts/application.html.erb (Duration: 45.4ms | Allocations: 6100)
+Completed 200 OK in 50ms (Views: 47.4ms | ActiveRecord: 1.0ms | Allocations: 6607)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2021-10-01 19:11:59 +0500
+Processing by PostsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/new.html.erb within layouts/application
+  Rendered posts/_form.html.erb (Duration: 6.1ms | Allocations: 1389)
+  Rendered posts/new.html.erb within layouts/application (Duration: 8.8ms | Allocations: 1803)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_head.html.erb (Duration: 14.2ms | Allocations: 3846)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.2ms | Allocations: 60)
+  Rendered shared/_header.html.erb (Duration: 1.1ms | Allocations: 263)
+  Rendered layout layouts/application.html.erb (Duration: 27.1ms | Allocations: 6247)
+Completed 200 OK in 60ms (Views: 32.4ms | ActiveRecord: 1.3ms | Allocations: 10386)
+
+
+Started GET "/posts" for 127.0.0.1 at 2021-10-01 19:12:02 +0500
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:15
+  Rendered posts/index.html.erb within layouts/application (Duration: 12.1ms | Allocations: 1724)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_head.html.erb (Duration: 12.1ms | Allocations: 2883)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.1ms | Allocations: 42)
+  Rendered shared/_header.html.erb (Duration: 0.7ms | Allocations: 221)
+  Rendered layout layouts/application.html.erb (Duration: 26.4ms | Allocations: 5122)
+Completed 200 OK in 30ms (Views: 27.0ms | ActiveRecord: 0.3ms | Allocations: 5871)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2021-10-01 19:12:05 +0500
+Processing by PostsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/new.html.erb within layouts/application
+  Rendered posts/_form.html.erb (Duration: 1.6ms | Allocations: 641)
+  Rendered posts/new.html.erb within layouts/application (Duration: 2.1ms | Allocations: 754)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_head.html.erb (Duration: 10.0ms | Allocations: 2871)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.6ms | Allocations: 52)
+  Rendered shared/_header.html.erb (Duration: 1.2ms | Allocations: 221)
+  Rendered layout layouts/application.html.erb (Duration: 15.7ms | Allocations: 4149)
+Completed 200 OK in 18ms (Views: 16.7ms | ActiveRecord: 0.0ms | Allocations: 4628)
+
+
+Started GET "/posts" for 127.0.0.1 at 2021-10-01 19:12:06 +0500
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:15
+  Rendered posts/index.html.erb within layouts/application (Duration: 18.7ms | Allocations: 726)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_head.html.erb (Duration: 100.3ms | Allocations: 3481)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered shared/_header.html.erb (Duration: 1.6ms | Allocations: 221)
+  Rendered layout layouts/application.html.erb (Duration: 123.5ms | Allocations: 4721)
+Completed 200 OK in 145ms (Views: 142.8ms | ActiveRecord: 0.3ms | Allocations: 5195)
+
+
+Started GET "/posts" for 127.0.0.1 at 2021-10-01 19:12:10 +0500
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:15
+  Rendered posts/index.html.erb within layouts/application (Duration: 3.8ms | Allocations: 730)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_head.html.erb (Duration: 9.9ms | Allocations: 2886)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered shared/_header.html.erb (Duration: 1.1ms | Allocations: 221)
+  Rendered layout layouts/application.html.erb (Duration: 16.5ms | Allocations: 4131)
+Completed 200 OK in 19ms (Views: 17.3ms | ActiveRecord: 0.2ms | Allocations: 4617)
+
+
+Started GET "/" for 127.0.0.1 at 2021-10-01 19:15:25 +0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 202)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_head.html.erb (Duration: 12.1ms | Allocations: 3366)
+  Rendered shared/_flash_notice.html.erb (Duration: 1.3ms | Allocations: 232)
+  Rendered shared/_header.html.erb (Duration: 2.5ms | Allocations: 670)
+  Rendered layout layouts/application.html.erb (Duration: 22.1ms | Allocations: 5269)
+Completed 200 OK in 28ms (Views: 24.7ms | ActiveRecord: 0.0ms | Allocations: 6705)
+
+
+Started GET "/perriors/new" for 127.0.0.1 at 2021-10-01 19:15:28 +0500
+Processing by PerriorsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering perriors/new.html.erb within layouts/application
+  Rendered application/_error_messages.html.erb (Duration: 1.0ms | Allocations: 227)
+  Rendered perriors/_form.html.erb (Duration: 11.0ms | Allocations: 1869)
+  Rendered perriors/new.html.erb within layouts/application (Duration: 13.6ms | Allocations: 2285)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_head.html.erb (Duration: 13.1ms | Allocations: 3073)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.6ms | Allocations: 60)
+  Rendered shared/_header.html.erb (Duration: 2.7ms | Allocations: 313)
+  Rendered layout layouts/application.html.erb (Duration: 33.1ms | Allocations: 5994)
+Completed 200 OK in 47ms (Views: 41.4ms | ActiveRecord: 0.0ms | Allocations: 7852)
+
+
+Started GET "/perriors" for 127.0.0.1 at 2021-10-01 19:15:29 +0500
+Processing by PerriorsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering perriors/index.html.erb within layouts/application
+  [1m[36mPerrior Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM "perriors" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/views/perriors/index.html.erb:5
+  [1m[36mCACHE Perrior Exists? (0.0ms)[0m  [1m[34mSELECT 1 AS one FROM "perriors" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/views/perriors/index.html.erb:10
+  [1m[36mPerrior Load (0.2ms)[0m  [1m[34mSELECT "perriors".* FROM "perriors"[0m
+  ↳ app/views/perriors/index.html.erb:23
+  Rendered perriors/index.html.erb within layouts/application (Duration: 18.9ms | Allocations: 2680)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_head.html.erb (Duration: 12.5ms | Allocations: 2884)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.3ms | Allocations: 52)
+  Rendered shared/_header.html.erb (Duration: 1.4ms | Allocations: 267)
+  Rendered layout layouts/application.html.erb (Duration: 35.6ms | Allocations: 6134)
+Completed 200 OK in 40ms (Views: 36.2ms | ActiveRecord: 0.6ms | Allocations: 7214)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2021-10-01 19:15:31 +0500
+Processing by PostsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/new.html.erb within layouts/application
+  Rendered posts/_form.html.erb (Duration: 6.5ms | Allocations: 1061)
+  Rendered posts/new.html.erb within layouts/application (Duration: 9.5ms | Allocations: 1602)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_head.html.erb (Duration: 8.6ms | Allocations: 3051)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.3ms | Allocations: 60)
+  Rendered shared/_header.html.erb (Duration: 1.9ms | Allocations: 313)
+  Rendered layout layouts/application.html.erb (Duration: 22.4ms | Allocations: 5293)
+Completed 200 OK in 36ms (Views: 32.1ms | ActiveRecord: 0.0ms | Allocations: 7154)
+
+
+Started GET "/posts" for 127.0.0.1 at 2021-10-01 19:15:32 +0500
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:15
+  Rendered posts/index.html.erb within layouts/application (Duration: 4.8ms | Allocations: 1053)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_head.html.erb (Duration: 17.8ms | Allocations: 2891)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.3ms | Allocations: 42)
+  Rendered shared/_header.html.erb (Duration: 2.2ms | Allocations: 267)
+  Rendered layout layouts/application.html.erb (Duration: 28.7ms | Allocations: 4506)
+Completed 200 OK in 32ms (Views: 30.1ms | ActiveRecord: 0.2ms | Allocations: 5244)
+
+
+Started GET "/perriors/new" for 127.0.0.1 at 2021-10-01 19:15:33 +0500
+Processing by PerriorsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering perriors/new.html.erb within layouts/application
+  Rendered application/_error_messages.html.erb (Duration: 0.2ms | Allocations: 43)
+  Rendered perriors/_form.html.erb (Duration: 4.2ms | Allocations: 802)
+  Rendered perriors/new.html.erb within layouts/application (Duration: 4.9ms | Allocations: 920)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_head.html.erb (Duration: 11.6ms | Allocations: 2873)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.3ms | Allocations: 52)
+  Rendered shared/_header.html.erb (Duration: 0.9ms | Allocations: 267)
+  Rendered layout layouts/application.html.erb (Duration: 19.6ms | Allocations: 4363)
+Completed 200 OK in 22ms (Views: 20.8ms | ActiveRecord: 0.0ms | Allocations: 4843)
+
+
+Started GET "/perriors" for 127.0.0.1 at 2021-10-01 19:15:34 +0500
+Processing by PerriorsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering perriors/index.html.erb within layouts/application
+  [1m[36mPerrior Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "perriors" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/views/perriors/index.html.erb:5
+  [1m[36mCACHE Perrior Exists? (0.0ms)[0m  [1m[34mSELECT 1 AS one FROM "perriors" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/views/perriors/index.html.erb:10
+  [1m[36mPerrior Load (0.2ms)[0m  [1m[34mSELECT "perriors".* FROM "perriors"[0m
+  ↳ app/views/perriors/index.html.erb:23
+  Rendered perriors/index.html.erb within layouts/application (Duration: 10.7ms | Allocations: 2078)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_head.html.erb (Duration: 10.5ms | Allocations: 2891)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered shared/_header.html.erb (Duration: 1.2ms | Allocations: 267)
+  Rendered layout layouts/application.html.erb (Duration: 24.3ms | Allocations: 5539)
+Completed 200 OK in 27ms (Views: 24.9ms | ActiveRecord: 0.5ms | Allocations: 6014)
+
+
+Started GET "/" for 127.0.0.1 at 2021-10-01 19:17:01 +0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 200)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_head.html.erb (Duration: 11.3ms | Allocations: 3363)
+  Rendered shared/_flash_notice.html.erb (Duration: 1.8ms | Allocations: 232)
+  Rendered shared/_header.html.erb (Duration: 40.1ms | Allocations: 7693)
+  Rendered layout layouts/application.html.erb (Duration: 59.3ms | Allocations: 12295)
+Completed 500 Internal Server Error in 66ms (ActiveRecord: 0.0ms | Allocations: 13699)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `new_project_path' for #<ActionView::Base:0x0000000000a618>
+Did you mean?  new_product_path
+               new_post_path):
+    20: 
+    21:         <%= link_to "Perriors", perriors_path, class: "block mt-4 lg:inline-block lg:mt-0 lg:mr-4 mb-2 lg:mb-0 link" %>
+    22: 
+    23:         <%= link_to "New project", new_project_path, class: "block mt-4 lg:inline-block lg:mt-0 lg:mr-4 mb-2 lg:mb-0 link" %>
+    24: 
+    25:         <%= link_to "project", products_path, class: "block mt-4 lg:inline-block lg:mt-0 lg:mr-4 mb-2 lg:mb-0 link" %>
+    26: 
+  
+app/views/shared/_header.html.erb:23
+app/views/layouts/application.html.erb:7
+Started GET "/" for 127.0.0.1 at 2021-10-01 19:17:56 +0500
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 200)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_head.html.erb (Duration: 10.9ms | Allocations: 3366)
+  Rendered shared/_flash_notice.html.erb (Duration: 1.7ms | Allocations: 232)
+  Rendered shared/_header.html.erb (Duration: 3.3ms | Allocations: 765)
+  Rendered layout layouts/application.html.erb (Duration: 20.2ms | Allocations: 5363)
+Completed 200 OK in 27ms (Views: 24.1ms | ActiveRecord: 0.0ms | Allocations: 6851)
+
+
+Started GET "/posts" for 127.0.0.1 at 2021-10-01 19:17:59 +0500
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:15
+  Rendered posts/index.html.erb within layouts/application (Duration: 5.9ms | Allocations: 1150)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_head.html.erb (Duration: 16.7ms | Allocations: 3229)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.3ms | Allocations: 44)
+  Rendered shared/_header.html.erb (Duration: 2.6ms | Allocations: 366)
+  Rendered layout layouts/application.html.erb (Duration: 33.1ms | Allocations: 5712)
+Completed 200 OK in 40ms (Views: 37.4ms | ActiveRecord: 0.2ms | Allocations: 6949)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2021-10-01 19:18:00 +0500
+Processing by PostsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/new.html.erb within layouts/application
+  Rendered posts/_form.html.erb (Duration: 4.9ms | Allocations: 1005)
+  Rendered posts/new.html.erb within layouts/application (Duration: 12.9ms | Allocations: 1484)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_head.html.erb (Duration: 12.9ms | Allocations: 2871)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered shared/_header.html.erb (Duration: 2.0ms | Allocations: 313)
+  Rendered layout layouts/application.html.erb (Duration: 30.4ms | Allocations: 4988)
+Completed 200 OK in 37ms (Views: 33.0ms | ActiveRecord: 0.0ms | Allocations: 6093)
+
+
+Started GET "/perriors/new" for 127.0.0.1 at 2021-10-01 19:18:01 +0500
+Processing by PerriorsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering perriors/new.html.erb within layouts/application
+  Rendered application/_error_messages.html.erb (Duration: 1.7ms | Allocations: 218)
+  Rendered perriors/_form.html.erb (Duration: 18.0ms | Allocations: 2667)
+  Rendered perriors/new.html.erb within layouts/application (Duration: 23.0ms | Allocations: 3076)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_head.html.erb (Duration: 16.8ms | Allocations: 3051)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.5ms | Allocations: 60)
+  Rendered shared/_header.html.erb (Duration: 1.8ms | Allocations: 365)
+  Rendered layout layouts/application.html.erb (Duration: 45.1ms | Allocations: 6814)
+Completed 200 OK in 53ms (Views: 49.9ms | ActiveRecord: 0.0ms | Allocations: 8006)
+
+
+Started GET "/perriors" for 127.0.0.1 at 2021-10-01 19:18:03 +0500
+Processing by PerriorsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering perriors/index.html.erb within layouts/application
+  [1m[36mPerrior Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM "perriors" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/views/perriors/index.html.erb:5
+  [1m[36mCACHE Perrior Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "perriors" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/views/perriors/index.html.erb:10
+  [1m[36mPerrior Load (0.2ms)[0m  [1m[34mSELECT "perriors".* FROM "perriors"[0m
+  ↳ app/views/perriors/index.html.erb:23
+  Rendered perriors/index.html.erb within layouts/application (Duration: 23.0ms | Allocations: 2501)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_head.html.erb (Duration: 12.8ms | Allocations: 2883)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.4ms | Allocations: 52)
+  Rendered shared/_header.html.erb (Duration: 1.2ms | Allocations: 313)
+  Rendered layout layouts/application.html.erb (Duration: 40.3ms | Allocations: 6000)
+Completed 200 OK in 48ms (Views: 40.9ms | ActiveRecord: 0.7ms | Allocations: 7235)
+
+
+Started GET "/products/new" for 127.0.0.1 at 2021-10-01 19:18:04 +0500
+Processing by ProductsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering products/new.html.erb within layouts/application
+  Rendered products/_form.html.erb (Duration: 6.8ms | Allocations: 1301)
+  Rendered products/new.html.erb within layouts/application (Duration: 9.3ms | Allocations: 1698)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_head.html.erb (Duration: 7.6ms | Allocations: 3032)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.2ms | Allocations: 60)
+  Rendered shared/_header.html.erb (Duration: 1.8ms | Allocations: 366)
+  Rendered layout layouts/application.html.erb (Duration: 20.4ms | Allocations: 5418)
+Completed 200 OK in 47ms (Views: 23.3ms | ActiveRecord: 3.0ms | Allocations: 11331)
+
+
+Started GET "/products" for 127.0.0.1 at 2021-10-01 19:18:05 +0500
+Processing by ProductsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering products/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.7ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  ↳ app/views/products/index.html.erb:15
+  Rendered products/index.html.erb within layouts/application (Duration: 7.4ms | Allocations: 1105)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_head.html.erb (Duration: 14.1ms | Allocations: 3494)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.2ms | Allocations: 42)
+  Rendered shared/_header.html.erb (Duration: 2.2ms | Allocations: 313)
+  Rendered layout layouts/application.html.erb (Duration: 26.5ms | Allocations: 5205)
+Completed 200 OK in 32ms (Views: 27.8ms | ActiveRecord: 0.7ms | Allocations: 5907)
+
+
+Started GET "/products/new" for 127.0.0.1 at 2021-10-01 19:18:07 +0500
+Processing by ProductsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering products/new.html.erb within layouts/application
+  Rendered products/_form.html.erb (Duration: 2.0ms | Allocations: 674)
+  Rendered products/new.html.erb within layouts/application (Duration: 2.4ms | Allocations: 787)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_head.html.erb (Duration: 9.0ms | Allocations: 2871)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered shared/_header.html.erb (Duration: 1.4ms | Allocations: 313)
+  Rendered layout layouts/application.html.erb (Duration: 14.9ms | Allocations: 4274)
+Completed 200 OK in 17ms (Views: 15.8ms | ActiveRecord: 0.0ms | Allocations: 4757)
+
+
+Started GET "/perriors" for 127.0.0.1 at 2021-10-01 19:18:09 +0500
+Processing by PerriorsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering perriors/index.html.erb within layouts/application
+  [1m[36mPerrior Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "perriors" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/views/perriors/index.html.erb:5
+  [1m[36mCACHE Perrior Exists? (0.0ms)[0m  [1m[34mSELECT 1 AS one FROM "perriors" LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/views/perriors/index.html.erb:10
+  [1m[36mPerrior Load (0.2ms)[0m  [1m[34mSELECT "perriors".* FROM "perriors"[0m
+  ↳ app/views/perriors/index.html.erb:23
+  Rendered perriors/index.html.erb within layouts/application (Duration: 14.6ms | Allocations: 2077)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_head.html.erb (Duration: 20.4ms | Allocations: 2883)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.4ms | Allocations: 52)
+  Rendered shared/_header.html.erb (Duration: 4.0ms | Allocations: 313)
+  Rendered layout layouts/application.html.erb (Duration: 41.9ms | Allocations: 5576)
+Completed 200 OK in 45ms (Views: 43.0ms | ActiveRecord: 0.6ms | Allocations: 6052)
+
+
+Started GET "/perriors/new" for 127.0.0.1 at 2021-10-01 19:18:09 +0500
+Processing by PerriorsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering perriors/new.html.erb within layouts/application
+  Rendered application/_error_messages.html.erb (Duration: 0.2ms | Allocations: 43)
+  Rendered perriors/_form.html.erb (Duration: 4.6ms | Allocations: 800)
+  Rendered perriors/new.html.erb within layouts/application (Duration: 5.2ms | Allocations: 918)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered shared/_head.html.erb (Duration: 12.9ms | Allocations: 2871)
+  Rendered shared/_flash_notice.html.erb (Duration: 0.2ms | Allocations: 52)
+  Rendered shared/_header.html.erb (Duration: 2.1ms | Allocations: 313)
+  Rendered layout layouts/application.html.erb (Duration: 22.9ms | Allocations: 4418)
+Completed 200 OK in 25ms (Views: 24.1ms | ActiveRecord: 0.0ms | Allocations: 4894)
+
+

@@ -1,0 +1,2 @@
+class Perrior < ApplicationRecord
+end
